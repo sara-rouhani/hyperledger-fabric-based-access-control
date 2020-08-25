@@ -92,12 +92,8 @@ async function main() {
 
         const result = await contract.submitTransaction('PDP', 'initSubject', 'initResource', 'can-be-admin-of-group', 'initPolicy' );
         console.log(`Transaction has been submitted, result is: ${result.toString()}`);
->>>>>>> 7f7d7fb... lint files
-=======
    //const result= await contract.submitTransaction('PDP', 'sara', 'resource1', "can-be-admin-of-group", 'policy1' );
       console.log(`Transaction has been submitted, result is: ${result.toString()}`);
->>>>>>> f8ddfe2... init ledger
-=======
         // Ask for subject key and subject values in json format
         //var policyKey = readline.question("What is policy key?");
         // var policy = readline.question("What is policy in json fromat?");
